@@ -1,4 +1,4 @@
-		<div class="site-branding pure-g">
+		<div class="site-branding pure-g content-width">
             <div class="pure-u-1-2">
             		<?php foundationboard_the_custom_logo(); ?>
             </div>
