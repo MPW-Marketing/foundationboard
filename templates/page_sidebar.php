@@ -6,7 +6,7 @@
  */
 get_header(); ?>
 
-	<div id="primary" class="content-area has-sidebar">
+	<div id="primary" class="content-area has-sidebar pure-u-4-5">
 		<main id="main" class="site-main" role="main">
 
 			<?php

@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area no-sidebar">
+	<div id="primary" class="content-area no-sidebar pure-u-4-5">
 		<main id="main" class="site-main" role="main">
 
 			<?php

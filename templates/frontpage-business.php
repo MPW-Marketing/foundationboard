@@ -7,7 +7,7 @@
 get_header(); ?>
 
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area pure-u-4-5">
 		<main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'components/features/hero-image/content', 'hero' ); ?>
