@@ -745,7 +745,12 @@ body {
   clear: both;
   width: 100%;
 }
-
+.icons {
+    background: url(images/Calendar-Icon.png);
+    background: url(images/Member-Icon.png);
+    background: url(images/Committee-Icon.png);
+    background: url(images/Documents-Icon.png);
+}
 
 /*--------------------------------------------------------------
 ## Single Column / No Active Sidebar
