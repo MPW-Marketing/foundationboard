@@ -617,10 +617,13 @@ table {
 .main-navigation li {
   float: left;
   position: relative;
+  width: 100%;
+  height: 84px;
 }
 .main-navigation a {
   display: block;
   text-decoration: none;
+    height: 100%;
 }
 
 /* Small menu. */
@@ -720,7 +723,9 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
-
+.site-header {
+    height: 158px;
+}
 .content-area {
   float: left;
   margin: 0 -25% 0 0;
