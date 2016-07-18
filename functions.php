@@ -106,7 +106,7 @@ add_action( 'after_setup_theme', 'foundationboard_content_width', 0 );
 
 function foundationboard_the_custom_logo() {
     if ( function_exists( 'the_custom_logo' ) ) {
-    the_custom_logo()
+    the_custom_logo();
 }
 }
 /**
