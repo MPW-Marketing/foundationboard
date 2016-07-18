@@ -726,6 +726,10 @@ body {
   margin: 0 -25% 0 0;
   width: 100%;
 }
+.content-width {
+    max-width: 1250px;
+    margin: 0 auto;
+}
 
 .site-main {
   margin: 0 25% 0 0;
