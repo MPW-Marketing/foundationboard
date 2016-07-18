@@ -639,6 +639,10 @@ table {
     display: block;
     float: left;
 }
+.main-navigation .menu-item {
+    background-color: #017bac;
+    margin-bottom: .5rem;
+}
 
 /* Small menu. */
 .menu-toggle,
