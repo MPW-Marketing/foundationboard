@@ -724,7 +724,10 @@ body {
   /* Fallback for when there is no custom background color defined. */
 }
 .site-header {
-    height: 158px;
+    height: 167px;
+}
+.site-branding{
+    margin-top: 3rem;
 }
 .content-area {
   float: left;
