@@ -80,6 +80,14 @@ function foundationboard_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+    
+     // Enable support for Custom Logo   
+    add_theme_support( 'custom-logo', array(
+	'height'      => 250,
+	'width'       => 40,
+	'flex-height' => true,
+	'flex-width'  => true,
+) );
 }
 endif;
 add_action( 'after_setup_theme', 'foundationboard_setup' );
@@ -96,6 +104,11 @@ function foundationboard_content_width() {
 }
 add_action( 'after_setup_theme', 'foundationboard_content_width', 0 );
 
+function foundationboard_the_custom_logo() {
+    if ( function_exists( 'the_custom_logo' ) ) {
+    the_custom_logo()
+}
+}
 /**
  * Register widget area.
  *
