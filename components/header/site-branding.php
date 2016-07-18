@@ -1,15 +1,12 @@
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
+		<div class="site-branding pure-g">
+            <div class="pure-u-1-2">
+            		<?php foundationboard_the_custom_logo(); ?>
+            </div>
+             <div class="pure-u-1-2">
+                 <?php if ( is_active_sidebar( 'header_right_widget' ) ) : ?>
+                    <div id="header-right-widgets">
+                        <?php dynamic_sidebar( 'header_right_widget' ); ?>
+                    </div>
+                <?php endif; ?>
+            </div><!--right side--> 
 		</div><!-- .site-branding -->

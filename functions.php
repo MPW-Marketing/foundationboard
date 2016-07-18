@@ -124,6 +124,62 @@ function foundationboard_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+    register_sidebar( array(
+        'name' => 'Footer Column 1',
+        'id' => 'footer_widget_1',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => 'Footer Column 2',
+        'id' => 'footer_widget_2',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => 'Footer Column 3',
+        'id' => 'footer_widget_3',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => 'Footer Column 4',
+        'id' => 'footer_widget_4',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => 'Header Right Side',
+        'id' => 'header_right_widget',
+        'before_widget' => '<div class="header-right-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="header-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    register_sidebar( array(
+        'name' => 'Footer Copyright Widget Left',
+        'id' => 'footer_copyright_left',
+        'before_widget' => '<div class="footer-copyright-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-copyright-widget-title">',
+        'after_title' => '</h3>',
+    ) );
+        register_sidebar( array(
+        'name' => 'Footer Copyright Widget Right',
+        'id' => 'footer_copyright_right',
+        'before_widget' => '<div class="footer-copyright-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footer-copyright-widget-title">',
+        'after_title' => '</h3>',
+    ) );
 }
 add_action( 'widgets_init', 'foundationboard_widgets_init' );
 

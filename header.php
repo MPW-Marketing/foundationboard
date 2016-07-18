@@ -28,11 +28,9 @@
 
 		<?php get_template_part( 'components/header/site', 'branding' ); ?>
 
-		<?php foundationboard_the_custom_logo(); ?>
-
 		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
 
-		<?php foundationboard_social_menu(); ?>
 
 	</header>
 	<div id="content" class="site-content">
+        <div id="content-inner" class="content-width">

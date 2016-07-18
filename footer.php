@@ -10,10 +10,19 @@
  */
 
 ?>
-
-	</div>
+</div> <!-- #content-inner -->
+	</div> <!--#content -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<?php get_template_part( 'components/footer/site', 'info' ); ?>
+		<div class="footer-widgets">
+            <div class="content-width">
+                <?php get_template_part( 'components/footer/site', 'widgets' ); ?>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <div class="content-width">
+		    <?php get_template_part( 'components/footer/site', 'info' ); ?>
+            </div>
+        </div>
 	</footer>
 </div>
 <?php wp_footer(); ?>
