@@ -625,6 +625,20 @@ table {
   text-decoration: none;
     height: 100%;
 }
+.menu-image-title {
+    width: 235px;
+    margin-right: 7px;
+    font-family: OpenSans;
+    font-size: 18.33px;
+    font-weight: 700;
+    display: block;
+    float: left;
+}
+.menu-image-container {
+    width: 105px;
+    display: block;
+    float: left;
+}
 
 /* Small menu. */
 .menu-toggle,
