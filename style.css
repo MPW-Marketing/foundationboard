@@ -749,7 +749,7 @@ body {
   margin: 0;
 }
 
-.no-sidebar .content-area {
+.no-sidebar.content-area {
   float: none;
   margin-left: auto;
   margin-right: auto;
