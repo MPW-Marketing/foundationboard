@@ -726,13 +726,14 @@ body {
 .site-header {
     height: 167px;
 }
-.site-branding{
+.site-branding.content-width {
     margin-top: 3rem;
 }
 .content-area {
   float: left;
   margin: 0 -25% 0 0;
   width: 100%;
+  background-color: #ffffff;
 }
 .content-width {
     max-width: 1250px;
