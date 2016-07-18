@@ -1,5 +1,15 @@
 <div class="site-info">
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'foundationboard' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'foundationboard' ), 'WordPress' ); ?></a>
-	<span class="sep"> | </span>
-	<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'foundationboard' ), 'Community Foundation Board', '<a href="http://automattic.com/" rel="designer">Automattic</a>' ); ?>
+    <div class="pure-g">
+	<?php if ( is_active_sidebar( 'footer_copyright_left' ) ) : ?>
+<div id="footer_copyright_left_widgets" class="pure-u-1-2">
+<?php dynamic_sidebar( 'footer_copyright_left' ); ?>
+</div>
+<?php endif; ?>
+	<?php if ( is_active_sidebar( 'footer_copyright_right' ) ) : ?>
+<div id="footer_copyright_right_widgets" class="pure-u-1-2">
+<?php dynamic_sidebar( 'footer_copyright_right' ); ?>
+</div>
+<?php endif; ?>
+        </div><!--.pure-g-->
+
 </div><!-- .site-info -->
