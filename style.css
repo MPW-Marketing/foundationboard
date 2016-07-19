@@ -624,6 +624,7 @@ table {
   display: block;
   text-decoration: none;
     height: 100%;
+    color: #ffffff;
 }
 .menu-image-title {
     width: 235px;
@@ -633,16 +634,19 @@ table {
     font-weight: 700;
     display: block;
     float: left;
+    height: 100%;
 }
 .menu-image-container {
     width: 105px;
     display: block;
     float: left;
+    height: 100%;
 }
 .main-navigation .menu-item {
     background-color: #017bac;
     margin-bottom: .5rem;
 }
+
 
 /* Small menu. */
 .menu-toggle,

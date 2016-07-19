@@ -218,3 +218,12 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+add_filter( 'walker_nav_menu_start_el', 'menu_image_nav_menu_item_filter_2' , 11, 4 );
+
+function menu_image_nav_menu_item_filter_2( $item_output, $item, $depth, $args ) {
+$item_output = str_replace('</span>', '</span><span class="menu-image-container">', $item_output);
+$item_output = str_replace('</a>', '</span></a>', $item_output);
+
+		return '<div class="menu-block">'.$item_output.'</div>';
+	}
