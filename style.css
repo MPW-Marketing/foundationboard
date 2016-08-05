@@ -653,35 +653,41 @@ table {
     float: left;
     height: 100%;
     line-height: 84px;
-    padding-right: 235px;
+    padding-right: 27px;
     text-transform: uppercase;
     text-align: right;
     letter-spacing: 3px;
-    margin-left: -999px;
-    padding-left: 999px;
 }
-.main-navigation .nav-menu > .menu-item:nth-of-type(1) .menu-image-title {
+.menu-image-title:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 9600px;
+    right: 100%;
+}
+.main-navigation .nav-menu > .menu-item:nth-of-type(1) .menu-image-title, .main-navigation .nav-menu > .menu-item:nth-of-type(1) .menu-image-title:before {
 background: #017bac; /* Old browsers */
 background: -moz-linear-gradient(top,  #017bac 0%, #017bac 50%, #006892 51%, #006892 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #017bac 0%,#017bac 50%,#006892 51%,#006892 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #017bac 0%,#017bac 50%,#006892 51%,#006892 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#017bac', endColorstr='#006892',GradientType=0 ); /* IE6-9 */
 }
-.main-navigation .nav-menu > .menu-item:nth-of-type(2) .menu-image-title {
+.main-navigation .nav-menu > .menu-item:nth-of-type(2) .menu-image-title, .main-navigation .nav-menu > .menu-item:nth-of-type(2) .menu-image-title:before {
     background: #b0bc22; /* Old browsers */
 background: -moz-linear-gradient(top,  #b0bc22 0%, #b0bc22 50%, #99a322 51%, #99a322 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #b0bc22 0%,#b0bc22 50%,#99a322 51%,#99a322 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #b0bc22 0%,#b0bc22 50%,#99a322 51%,#99a322 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0bc22', endColorstr='#99a322',GradientType=0 ); /* IE6-9 */
 }
-.main-navigation .nav-menu > .menu-item:nth-of-type(3) .menu-image-title {
+.main-navigation .nav-menu > .menu-item:nth-of-type(3) .menu-image-title, .main-navigation .nav-menu > .menu-item:nth-of-type(3) .menu-image-title:before {
         background: #e15554; /* Old browsers */
 background: -moz-linear-gradient(top,  #e15554 0%, #e15554 50%, #cb4d4c 51%, #cb4d4c 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #e15554 0%,#e15554 50%,#cb4d4c 51%,#cb4d4c 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #e15554 0%,#e15554 50%,#cb4d4c 51%,#cb4d4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e15554', endColorstr='#cb4d4c',GradientType=0 ); /* IE6-9 */
 }
-.main-navigation .nav-menu > .menu-item:nth-of-type(4) .menu-image-title {
+.main-navigation .nav-menu > .menu-item:nth-of-type(4) .menu-image-title, .main-navigation .nav-menu > .menu-item:nth-of-type(4) .menu-image-title:before {
         background: #efa504; /* Old browsers */
 background: -moz-linear-gradient(top,  #efa504 0%, #efa504 50%, #dc9803 51%, #dc9803 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #efa504 0%,#efa504 50%,#dc9803 51%,#dc9803 100%); /* Chrome10-25,Safari5.1-6 */
