@@ -584,14 +584,15 @@ table {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-.left-nav {
-    width: 326px;
-}
+
 .main-navigation {
   clear: both;
   display: block;
   float: left;
   width: 100%;
+}
+.left-nav {
+    width: 326px;
 }
 .main-navigation ul {
   display: none;
