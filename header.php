@@ -32,5 +32,5 @@
 
 	</header>
 	<div id="content" class="site-content">
-        <div id="content-inner" class="content-width pure-g">
+        <div id="content-inner" class="content-width">
             <?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
