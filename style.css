@@ -112,8 +112,12 @@ dfn {
 }
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+    border-bottom:1px solid #222222;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4em;
+    font-weight:700;
+    margin: 1em 2em 2em;
+    text-transform:uppercase;
 }
 
 mark {
@@ -613,6 +617,7 @@ table {
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
+    color:#ffffff;
 }
 .main-navigation li {
   float: left;
@@ -635,19 +640,20 @@ table {
     width:  100%;
 }
 .menu-image-title {
-    width: 65%;
+    width: 235px;
     margin-right: 7px;
-    font-family: OpenSans;
-    font-size: 18.33px;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     display: block;
     float: left;
     height: 100%;
     line-height: 84px;
-    padding-left: 94px;
+    padding-right:20px;
+    /**padding-left: 94px;**/
     text-transform: uppercase;
-
-
+    text-align:right;
+    letter-spacing:3px;
 }
 .main-navigation .nav-menu > .menu-item:nth-of-type(1) .menu-image-title {
 background: #017bac; /* Old browsers */
@@ -741,17 +747,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efa504', end
 
 
 .menu-image-container {
-    width: 30%;
+    width: 84px;
     display: block;
     float: right;
     height: 100%;
     line-height: 84px;
     text-align: center;
 }
-.main-navigation .menu-item {
-
-    margin-bottom: .5rem;
-}
+.main-navigation .menu-item {margin-bottom: 7px;}
 
 
 /* Small menu. */
@@ -802,10 +805,10 @@ a {
   color: royalblue;
 }
 a:visited {
-  color: purple;
+  color: #ffffff;
 }
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #ffffff;
 }
 a:focus {
   outline: thin dotted;
@@ -851,9 +854,6 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
-.header-right-widget {
-    float: right;
-}
 .site-header {
     height: 167px;
 }
@@ -894,9 +894,10 @@ body {
 }
 
 .content-area.no-sidebar {
-  float: none;
+  float: left;
   margin-left: auto;
   margin-right: auto;
+  width: 924px;
 }
 
 /*--------------------------------------------------------------
@@ -925,7 +926,6 @@ body {
 .entry-summary {
   margin: 1.5em 0 0;
 }
-
 
 /*--------------------------------------------------------------
 ## Pages
@@ -1300,7 +1300,8 @@ this the same font stack that Normalize.css sets for the `body`.
 
 .pure-u-17-24 {
     width: 70.8333%;
-    *width: 70.8023%;
+    *
+    width: 70.8023%;
 }
 
 .pure-u-3-4,
