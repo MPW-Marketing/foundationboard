@@ -851,6 +851,9 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
+.header-right-widget {
+    float: right;
+}
 .site-header {
     height: 167px;
 }
@@ -922,6 +925,7 @@ body {
 .entry-summary {
   margin: 1.5em 0 0;
 }
+
 
 /*--------------------------------------------------------------
 ## Pages
