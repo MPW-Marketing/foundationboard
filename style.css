@@ -729,7 +729,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efa504', end
     top: 0;
     right: 110px;
     z-index: -1;
-    transition: all ease 0.1s;
+    transition: all ease 0.2s;
 }
 .main-navigation .nav-menu > .menu-item a:hover .menu-image-container .menu-image-container {
     right: 0;
@@ -829,13 +829,13 @@ a:hover, a:active {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #fff;
 }
 a:visited {
-  color: purple;
+  color: #fff;
 }
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #fff;
 }
 a:focus {
   outline: thin dotted;

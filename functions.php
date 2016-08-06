@@ -227,3 +227,5 @@ $item_output = str_replace('</a>', '</span></a>', $item_output);
 
 		return '<div class="menu-block">'.$item_output.'</div>';
 	}
+
+add_filter('widget_text', 'do_shortcode');
